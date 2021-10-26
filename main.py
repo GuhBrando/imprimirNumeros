@@ -1,8 +1,9 @@
 def imprimirNumerosMenorParaMaior(QtdVezes, count):
     print(count)
     if  QtdVezes == count:
-        return 1
-    return imprimirNumerosMenorParaMaior(QtdVezes, count + 1)
+        pass
+    else:
+        imprimirNumerosMenorParaMaior(QtdVezes, count + 1)
 
 def imprimirNumerosMaiorParaMenor(QtdVezes):
     print(QtdVezes)
